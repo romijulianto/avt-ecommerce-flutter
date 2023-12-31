@@ -31,7 +31,7 @@ class HomeAppBar extends StatelessWidget {
           showBadge: true,
           ignorePointer: false,
           badgeContent: const Text(
-            '3',
+            '10',
             style: TextStyle(color: Colors.white),
           ),
           child: InkWell(
