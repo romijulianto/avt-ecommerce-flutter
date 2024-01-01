@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
       ),
-      routes: {"/": (context) => HomePage()},
+      routes: {"/": (context) => const HomePage()},
     );
   }
 }

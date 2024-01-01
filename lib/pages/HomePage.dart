@@ -1,3 +1,4 @@
+import 'package:ecommerce_avatech/widget/CategoriesWidget.dart';
 import 'package:ecommerce_avatech/widget/HomeAppBar.dart';
 import 'package:flutter/material.dart';
 
@@ -22,6 +23,7 @@ class HomePage extends StatelessWidget {
           ),
           child: Column(
             children: [
+              /* TODO: search widget */
               Container(
                 margin: const EdgeInsets.symmetric(horizontal: 15),
                 padding: const EdgeInsets.symmetric(horizontal: 15),
@@ -44,9 +46,47 @@ class HomePage extends StatelessWidget {
                   const Spacer(),
                   const Icon(
                     Icons.search_outlined,
+                      size: 27,
+                      color: Color(0XFF4C53A5),
                   )
-                ]),
+                  ],
+                ),
               ),
+              Container(
+                alignment: Alignment.centerLeft,
+                margin: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 10,
+                ),
+                child: const Text(
+                  "Categories",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0XFF4C53A5),
+                  ),
+                ),
+              ),
+
+              /* TODO: add CategoriesWidget */
+              const CategoriesWidget(),
+
+              /* TODO: Items product */
+              Container(
+                alignment: Alignment.centerLeft,
+                margin:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: const Text(
+                  "Best Selling",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0XFF4C53A5),
+                  ),
+                ),
+              ),
+
+              const ItemsWidget()
             ],
           ),
         ),
