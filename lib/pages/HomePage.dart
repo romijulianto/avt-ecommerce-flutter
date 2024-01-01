@@ -1,3 +1,4 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:ecommerce_avatech/widget/CategoriesWidget.dart';
 import 'package:ecommerce_avatech/widget/HomeAppBar.dart';
 import 'package:ecommerce_avatech/widget/ItemsWidget.dart';
@@ -92,7 +93,30 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ],
-    )
+      ),
+      bottomNavigationBar: CurvedNavigationBar(
+        backgroundColor: Colors.transparent,
+        onTap: (index) {},
+        height: 60,
+        color: const Color(0XFF4C53A5),
+        items: const [
+          Icon(
+            Icons.home,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.shopping_cart_checkout_outlined,
+            size: 30,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.list,
+            size: 30,
+            color: Colors.white,
+          ),
+        ],
+      ),
     );
   }
 }
