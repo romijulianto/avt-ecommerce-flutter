@@ -1,5 +1,7 @@
 import "package:ecommerce_avatech/widget/CarItems.dart";
 import "package:ecommerce_avatech/widget/CartAppBar.dart";
+import "package:ecommerce_avatech/widget/CartButtonNavBar.dart";
+import "package:ecommerce_avatech/widget/CouponCodeInput.dart";
 import "package:flutter/material.dart";
 
 class CartPage extends StatelessWidget {
@@ -13,7 +15,7 @@ class CartPage extends StatelessWidget {
           const CartAppBar(),
           Container(
             /*TODO: temporary height */
-            height: 700,
+            height: 600,
             padding: const EdgeInsets.only(top: 15),
             decoration: const BoxDecoration(
               color: Color(0XFFEDECF2),
@@ -35,7 +37,7 @@ class CartPage extends StatelessWidget {
                   child: Row(children: [
                     Container(
                       decoration: BoxDecoration(
-                        color: Color(0XFF4C53A5),
+                        color: const Color(0XFF4C53A5),
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: const Icon(
@@ -55,13 +57,14 @@ class CartPage extends StatelessWidget {
                       ),
                     )
                   ]),
-                )
+                ),
+                const CouponCodeInput()
               ],
             ),
           ),
         ],
       ),
-      bottomNavigationBar: CartButtonNavBar(),
+      bottomNavigationBar: const CartButtonNavBar(),
     );
   }
 }

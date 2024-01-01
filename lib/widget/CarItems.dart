@@ -1,3 +1,4 @@
+import "package:ecommerce_avatech/widget/CouponCodeInput.dart";
 import "package:flutter/cupertino.dart";
 import "package:flutter/material.dart";
 
@@ -10,7 +11,6 @@ class CarItems extends StatelessWidget {
       children: [
         for (int i = 1; i < 5; i++)
           Container(
-            height: 110,
             margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
             padding: const EdgeInsets.all(10),
             decoration: BoxDecoration(
