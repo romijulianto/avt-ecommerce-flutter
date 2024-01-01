@@ -1,5 +1,6 @@
 import 'package:ecommerce_avatech/widget/CategoriesWidget.dart';
 import 'package:ecommerce_avatech/widget/HomeAppBar.dart';
+import 'package:ecommerce_avatech/widget/ItemsWidget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -12,7 +13,7 @@ class HomePage extends StatelessWidget {
         const HomeAppBar(),
         Container(
           /* TODO: temporary height */
-          height: 500,
+          // height: 500,
           padding: const EdgeInsets.only(top: 15),
           decoration: const BoxDecoration(
             color: Color(0XFFEDECF2),
@@ -86,7 +87,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
 
-              const ItemsWidget()
+              const ItemsWIdget()
             ],
           ),
         ),
