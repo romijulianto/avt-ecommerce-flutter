@@ -1,3 +1,4 @@
+import 'package:ecommerce_avatech/pages/CartPage.dart';
 import 'package:ecommerce_avatech/pages/HomePage.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
       ),
-      routes: {"/": (context) => const HomePage()},
+      routes: {
+        "/": (context) => const HomePage(),
+        "cartPage": (context) => const CartPage(),
+      },
     );
   }
 }
