@@ -1,10 +1,9 @@
 # ecommerce_avatech
 
 ## Demo Aplikaasi
-Klik link dibawah (bukan preview image) 
-<div><a href="https://1drv.ms/v/s!AlexnzSgqI_fsMdrfT04YdWtX2isCg?e=uWJmPq"></a></div>
-
+[Klik link demo](https://1drv.ms/v/s!AlexnzSgqI_fsMdrfT04YdWtX2isCg?e=uWJmPq)\
 <a href="https://1drv.ms/v/s!AlexnzSgqI_fsMdrfT04YdWtX2isCg?e=uWJmPq"><p style="margin-bottom: 0 !important;">Demo Aplikasi - Avatect Ecommerce</p><img style="max-width:400px;" src="https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af194938a3bfc3b62f4281d63558201d5555d93545d4cefa34135cfc49413fc2f88d31397e36018549f11b6514df788ef1c1bb734f2a58f24a3165d004586fca42f376fc6c28ff029f66d216bfbfd299cb4797b"></a>
+[Klik link demo](https://1drv.ms/v/s!AlexnzSgqI_fsMdrfT04YdWtX2isCg?e=uWJmPq)
 
 A new Flutter project.
 
