@@ -4,7 +4,7 @@
 Klik link dibawah (bukan preview image) 
 <div><a href="https://1drv.ms/v/s!AlexnzSgqI_fsMdrfT04YdWtX2isCg?e=uWJmPq"></a></div>
 
-<a href="https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/319bf98cd5e6b74f732709368b941fe6.mp4"><p style="margin-bottom: 0 !important;">Demo Aplikasi - Avatect Ecommerce</p><img style="max-width:400px;" src="https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af194938a3bfc3b62f4281d63558201d5555d93545d4cefa34135cfc49413fc2f88d31397e36018549f11b6514df788ef1c1bb734f2a58f24a3165d004586fca42f376fc6c28ff029f66d216bfbfd299cb4797b"></a>
+<a href="https://1drv.ms/v/s!AlexnzSgqI_fsMdrfT04YdWtX2isCg?e=uWJmPq"><p style="margin-bottom: 0 !important;">Demo Aplikasi - Avatect Ecommerce</p><img style="max-width:400px;" src="https://previews.jumpshare.com/thumb/815bc01b796dd6f1733c957c5af194938a3bfc3b62f4281d63558201d5555d93545d4cefa34135cfc49413fc2f88d31397e36018549f11b6514df788ef1c1bb734f2a58f24a3165d004586fca42f376fc6c28ff029f66d216bfbfd299cb4797b"></a>
 
 A new Flutter project.
 
